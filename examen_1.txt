@@ -1,0 +1,4 @@
+1.- Autenticar usuarios
+2.- Permita publicar mensajes a usuarios autenticados
+3.- Al publicar un mensaje decidir: Publico o privado
+4.- Función que cuente mensajes publicos y privados/usuario
