@@ -2,3 +2,28 @@
 2.- Permita publicar mensajes a usuarios autenticados
 3.- Al publicar un mensaje decidir: Publico o privado
 4.- Función que cuente mensajes publicos y privados/usuario
+5.- PWA
+
+Usuario:
+-id
+ -uid
+ -nombre
+ -url foto
+ -Edad
+ -Mensajes_publicos: 300
+ -Mensajes_privados: 5
+-id
+-id
+
+Mensaje:
+-id
+ -uid: 
+ -mensaje: "Hola"
+-id
+-id
+
+Pantallas:
+-Muro
+-Nuevo Mensaje
+-Autenticacion
+-Perfil
