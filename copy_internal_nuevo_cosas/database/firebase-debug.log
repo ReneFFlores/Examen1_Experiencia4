@@ -1,0 +1,41 @@
+[debug] [2018-05-29T05:39:17.869Z] ----------------------------------------------------------------------
+[debug] [2018-05-29T05:39:17.871Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rene Flores\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-05-29T05:39:17.871Z] CLI Version:   3.18.4
+[debug] [2018-05-29T05:39:17.872Z] Platform:      win32
+[debug] [2018-05-29T05:39:17.872Z] Node Version:  v8.11.1
+[debug] [2018-05-29T05:39:17.872Z] Time:          Mon May 28 2018 23:39:17 GMT-0600 (Hora estándar, América Central)
+[debug] [2018-05-29T05:39:17.872Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-29T05:39:17.888Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-29T05:39:17.889Z] > authorizing via signed-in user
+[debug] [2018-05-29T05:39:17.891Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-29T05:39:17.891Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/MVjQ4TlQjSaRBOAtRM9nDnMPP9SxnNx4YPWbntTYwUA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon May 28 2018 23:39:17 GMT-0600 (Hora estándar, América Central)
+[debug] [2018-05-29T05:39:20.326Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T05:39:20.388Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/exanen1rflores  
+  
+ Mon May 28 2018 23:39:20 GMT-0600 (Hora estándar, América Central)
+[debug] [2018-05-29T05:39:23.030Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T05:39:23.031Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/exanen1rflores/tokens  
+  
+ Mon May 28 2018 23:39:23 GMT-0600 (Hora estándar, América Central)
+[debug] [2018-05-29T05:39:25.073Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T05:39:25.074Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/exanen1rflores  
+  
+ Mon May 28 2018 23:39:25 GMT-0600 (Hora estándar, América Central)
+[debug] [2018-05-29T05:39:27.647Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Rene Flores\Downloads\quickstart-js-master\quickstart-js-master\database'...
+[info] 
+[debug] [2018-05-29T05:39:27.651Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/897524052086/clients/_:getWebAppConfig  
+  
+ Mon May 28 2018 23:39:27 GMT-0600 (Hora estándar, América Central)
+[debug] [2018-05-29T05:39:30.984Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
